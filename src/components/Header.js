@@ -59,7 +59,7 @@ const Header = () => {
           strings={[
             "Frontend Developer",
             "Backend Developer",
-            "Data-Science Entusiast",
+            "Data-Science Enthusiast",
             "Cyber Security Enthusiast"
           ]}
           typeSpeed={40}
