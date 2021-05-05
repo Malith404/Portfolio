@@ -88,7 +88,7 @@ const Navbar = () => {
             <ListItemIcon className={classes.listItem}>
               {item.listIcon}
             </ListItemIcon>
-            <ListItemText primary={item.listText} />
+            <ListItemText className={classes.listItem} primary={item.listText} />
           </ListItem>          
         ))}
         <a href='/Oshadha Malith Goonathilake.pdf' target='_blank' rel='noopener noreferrer'> 
