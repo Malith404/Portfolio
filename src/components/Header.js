@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
-import malith from '../../../material-ui-portfolio/src/malith1.png'
+import malith from '../malith1.png'
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
