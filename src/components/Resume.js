@@ -126,7 +126,7 @@ const Resume = () => {
     
     <React.Fragment>
     <Particles />
-    <div class="ma0 " style={{backgroundColor:"black",height:"100%"}}>
+    <div class="ma0 " style={{height:"100%",backgroundColor:"black"}}>
        <div class="grid-layout-1">
 
         <main class="main" role="main" id="mainContent">
@@ -295,7 +295,7 @@ const Resume = () => {
 
                 <footer class="-m-auto -border-top -em-08 -lineheight-1-3 footer -text-left" >
                   <div className="copyrightAlign">
-                  <p class="-clearfix -text-center lastpublished -em-07" style={{width:"350px",alignContent:"center",fontSize:"0.8rem"}}>Copyright © 2021 OSHADHA GOONATHILAKE</p>
+                  <p class="-clearfix -text-center lastpublished -em-07" style={{width:"350px",fontSize:"0.8rem"}}>Copyright © 2021 OSHADHA GOONATHILAKE</p>
                    </div>
                 </footer>
      

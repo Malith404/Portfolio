@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project Genimen",
+    name: "Genimen",
     description: `The problem discussed arises with the nature of the modern-day market.
      With immense competition and humongous customer base to cater it is often considered 
      tedious and difficult to approach the market with new services and products. Especially this 
