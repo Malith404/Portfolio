@@ -4,7 +4,7 @@
   "engines": {
     "node": "14.15.3"
   },
-  "private": true,  
+  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
