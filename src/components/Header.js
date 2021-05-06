@@ -44,7 +44,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={malith} alt="Malith" style={{width:"20%",height:"10%"}}/>
       </Grid>
       <Typography className={classes.hello} variant="h4">
-       Hello !
+       Hello ! 
         <br></br>
       </Typography>
 

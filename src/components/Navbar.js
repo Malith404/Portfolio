@@ -108,8 +108,9 @@ const Navbar = () => {
               <ArrowBack className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Menu
             </Typography>
+        
             <img src={phoenix} style={{width:"5%",height:"5%",float:"right",marginLeft:"80%"}}></img>
           </Toolbar>
         </AppBar>

@@ -136,8 +136,8 @@ const About = () => {
       <h1 class="xlarge-font"><b>WHO AM I ?</b></h1>
       <h1 class="large-font" style={{color:"MediumSeaGreen"}}><b> <Typed strings={["Read About Myself"]} typeSpeed={40}/></b></h1>
       <p><span style={{fontSize:"36px"}}>I am a software engineering undergraduate</span>  at IIT, Sri Lanka (Affiliated
-      with University of Westminster U.K). Improving my skills in design, development, testing and implementation of programming 
-     languages and web-based applications. 
+      with University of Westminster U.K). Improving my skills in design, development, testing and implementation of 
+     software and web-based applications. 
     </p>
       <button class="button">"The Harder The Battle, The Sweeter The Victory" - Les Brown</button>
     </div>

@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   
 }));
 
-const projects = [
+const projectGenimen = [
   {
     name: "Genimen",
     description: `The problem discussed arises with the nature of the modern-day market.
@@ -41,8 +41,12 @@ const projects = [
      is an amplification of the problem when considered the routes to approach the market. This project 
      aims to simplify the research and the time that needed when coming up with new strategies to establish 
      new products.`,
-    image: genimen,
+    image: genimen,    
+    
   },
+];
+
+const otherProjects = [
   {
     name: "Project 2",
     description: "An under-construction project is a project that can be placed instead of your future project,\
@@ -101,7 +105,7 @@ const Portfolio = () => {
     <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
         {/* Projects */}
-        {projects.map((project, i) => (
+        {projectGenimen.map((project, i) => (
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
@@ -126,6 +130,38 @@ const Portfolio = () => {
                   Share
                 </Button> */}
                 <Button size="small" color="primary" href="https://genimen.netlify.app/home" style={{marginLeft:"35%"}}>
+                  Live Demo
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+        ))}
+
+      {otherProjects.map((project, i) => (
+          <Grid item xs={12} sm={8} md={4} key={i}>
+            <Card className={classes.cardContainer}>
+              <CardActionArea>
+                <CardMedia
+                className={classes.images}
+                  component="img"
+                  alt="Project 1"
+                  height="140"
+                  image={project.image}
+                />
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>
+                    {project.name}
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary">
+                    {project.description}
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                {/* <Button size="small" color="primary">
+                  Share
+                </Button> */}
+                <Button size="small" color="primary"  style={{marginLeft:"35%"}}>
                   Live Demo
                 </Button>
               </CardActions>
