@@ -16,18 +16,28 @@ import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
 import project6 from "../images/react.png";
+import Particles from "./Particles";
+
+import '../components/portfolio.css'
 
 import genimen from "../images/genimen.png";
 
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "black",
     height: "100%",
+  
   },
   cardContainer: {
     maxWidth: 345,
     margin: "3rem auto",
+    boxShadow:"0 4px 5px 3px #3c3c3c !important;",
+    color:"#fff !important",
+    backgroundColor:"black !important",
+    opacity:".9 !important",
+    transition:"all .5s ease 0s !important",
+
   },
   
 }));
@@ -102,12 +112,25 @@ const otherProjects = [
 const Portfolio = () => {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.mainContainer}>
-      <Grid container justify="center">
+    <React.Fragment>
+    <Particles />
+    <Box component="div" className="mainContainer">
+  
+      <Grid container justify="center" >
+     
         {/* Projects */}
         {projectGenimen.map((project, i) => (
-          <Grid item xs={12} sm={8} md={4} key={i}>
-            <Card className={classes.cardContainer}>
+          <Grid item xs={12} sm={8} md={4} key={i} >
+         <br></br>
+         <br></br>     
+        <Typography variant="h5" style={{marginLeft:"24%",color:"#00FFFF"}} gutterBottom>
+              My Recent <span style={{color:"#00FFCC",fontWeight:"bold"}} >Works</span> 
+        </Typography>
+          <Typography variant="caption" style={{marginLeft:"15%",marginBottom:"-25%",color:"white"}} gutterBottom>
+            Here are a few projects I've worked on recently 
+          </Typography>
+            <br></br>           
+            <Card className="boxHover">
               <CardActionArea>
                 <CardMedia
                 className={classes.images}
@@ -120,7 +143,7 @@ const Portfolio = () => {
                   <Typography variant="h5" gutterBottom>
                     {project.name}
                   </Typography>
-                  <Typography variant="body2" color="textSecondary">
+                  <Typography variant="caption" color="white">
                     {project.description}
                   </Typography>
                 </CardContent>
@@ -136,7 +159,7 @@ const Portfolio = () => {
             </Card>
           </Grid>
         ))}
-
+{/* 
       {otherProjects.map((project, i) => (
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
@@ -147,8 +170,8 @@ const Portfolio = () => {
                   alt="Project 1"
                   height="140"
                   image={project.image}
-                />
-                <CardContent>
+                /> */}
+                {/* <CardContent>
                   <Typography variant="h5" gutterBottom>
                     {project.name}
                   </Typography>
@@ -157,19 +180,20 @@ const Portfolio = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              <CardActions> */}
                 {/* <Button size="small" color="primary">
                   Share
                 </Button> */}
-                <Button size="small" color="primary"  style={{marginLeft:"35%"}}>
+                {/* <Button size="small" color="primary"  style={{marginLeft:"35%"}}>
                   Live Demo
                 </Button>
               </CardActions>
             </Card>
           </Grid>
-        ))}
+        ))} */}
       </Grid>
     </Box>
+    </React.Fragment>
   );
 };
 
