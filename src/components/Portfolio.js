@@ -127,7 +127,7 @@ const Portfolio = () => {
               My Recent <span style={{color:"#00FFCC",fontWeight:"bold"}} >Works</span> 
         </Typography>
           <Typography variant="caption" style={{marginLeft:"15%",marginBottom:"-25%",color:"white"}} gutterBottom>
-            Here are a few projects I've worked on recently 
+            Here are few projects that I've worked on recently 
           </Typography>
             <br></br>           
             <Card className="boxHover">
