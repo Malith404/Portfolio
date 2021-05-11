@@ -154,15 +154,11 @@ const Resume = () => {
 
 
                     <p style={{color:"white",width:"100%"}}>
-                    Level 04 (1st Year) 
+                    Level 05 (2nd Year) 
                     <br></br>
                     <br></br>
-                    Programming Principles 1 (Python),
-                    Computer Science Practice, 
-                    Computer System Fundamental, 
-                    Mathematics for Computing, 
-                    Programming Principle 2 (Java), 
-                    Web Design and Development, 
+                    Object Oriented Programming, Database systems, Software 
+                    Development Group Project, Client Server architecture, Server-side web development and Algorithms theory design and practice
                     </p>
                     <br></br>
                     <br></br>
