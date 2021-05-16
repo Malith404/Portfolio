@@ -58,6 +58,7 @@ const Header = () => {
         <Typed
           strings={[
             "Full-Stack Web-Developer",
+            "Machine Learning Enthusiast",
             "Data-Science Enthusiast",
             "Cyber Security Enthusiast",
             "Cricket Player"

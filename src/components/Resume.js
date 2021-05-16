@@ -10,6 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import 'font-awesome/css/font-awesome.min.css';
+// import CvBG from '../images/CVBG.jpg'
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -126,10 +127,11 @@ const Resume = () => {
     
     <React.Fragment>
     <Particles />
-    <div class="ma0 " style={{height:"100%",backgroundColor:"black"}}>
+    <div class="ma0 " style={{height:"100%"}}>
        <div class="grid-layout-1">
 
         <main class="main" role="main" id="mainContent">
+        
 
             <h1 id="monikapatel" style={{color:"#67E6EC",marginLeft:"-10%"}}>Oshadha Goonathilake</h1>
 
@@ -148,9 +150,9 @@ const Resume = () => {
                     </br>
                     <br></br>
 
-                   <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#539DC2"}}> BENG.(HONS) SOFTWARE ENGINEERING
+                   <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#e0cdbe"}}> BENG.(HONS) SOFTWARE ENGINEERING
                     </h3>
-                    <h6><em>Informatics Institute of Technology, Colombo 06 | 2020</em></h6>
+                    <h6><em style={{color:"#e0cdbe"}}>Informatics Institute of Technology, Colombo 06 | 2020</em></h6>
 
 
                     <p style={{color:"white",width:"100%"}}>
@@ -164,9 +166,9 @@ const Resume = () => {
                     <br></br>
 
 
-                  <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#539DC2"}}> BENG.(HONS) SOFTWARE ENGINEERING
+                  <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#e0cdbe"}}> BENG.(HONS) SOFTWARE ENGINEERING
                     </h3>
-                    <h6><em>Informatics Institute of Technology, Colombo 06 | 2020</em></h6>
+                    <h6><em style={{color:"#e0cdbe"}}>Informatics Institute of Technology, Colombo 06 | 2020</em></h6>
 
 
                     <p style={{color:"white",width:"100%"}}>
@@ -186,9 +188,9 @@ const Resume = () => {
                     </br>
                     <br></br>
 
-                   <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#539DC2"}}> GCE Ordinary level
+                   <h3 id="solutiondynamics-dotnetdeveloper" style={{fontWeight:"bold",color:"#e0cdbe"}}> GCE Ordinary level
                     </h3>
-                    <h6><em>Vidura COllege, Thalawathugoda | 2018</em></h6>
+                    <h6><em style={{color:"#e0cdbe"}}>Vidura COllege, Thalawathugoda | 2018</em></h6>
 
 
                     <p style={{color:"white",width:"100%"}}>
